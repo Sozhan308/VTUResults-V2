@@ -31,7 +31,7 @@
             android:title="Poll on System Boot" />
 
         <EditTextPreference
-            android:defaultValue="1"
+            android:defaultValue="15"
             android:dialogMessage="Set the time interval between two consecutive polls (in mins).\n\nNote: Set a larger value to conserve battery.\nRestart polling services to apply the changes."
             android:dialogTitle="Set Time interval"
             android:inputType="number"

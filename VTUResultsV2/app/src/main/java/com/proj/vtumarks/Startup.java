@@ -40,8 +40,9 @@ public class Startup extends Activity {
 					try {
 						sleep(2000);
 					} catch (InterruptedException e) {
-						// TODO: handle exception
-						e.printStackTrace();
+                        Intent openMainPage = new Intent(
+                                "android.intent.action.VTU");
+                        startActivity(openMainPage);
 					} finally {
 						Intent openMainPage = new Intent(
 								"android.intent.action.VTU");
