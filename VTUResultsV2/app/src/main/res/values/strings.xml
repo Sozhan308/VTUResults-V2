@@ -5,4 +5,8 @@
     <string name="hello_world">Enter your USN, and then click submit!</string>
     <string name="menu_settings">Settings</string>
 
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
 </resources>
